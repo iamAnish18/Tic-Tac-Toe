@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #A86479;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+}
+.cointers{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70vh;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 10vmin;
+    border-radius: 1rem;
+    border: none;
+    color: #A86479;
+    background-color: #9CA966 ;
+    box-shadow: 23px 22px 16px black;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: #9CA966;
+}
+.divs{
+    display: flex;
+    justify-content: center;
+}
+
+.msgall{
+    text-align: center;
+    padding-bottom: 15px;
+}
+#msg{
+    text-align: center;
+    color: #9CA966 ;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.hide{
+    display: none;
+}
+
+#msgbtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: black;
+    color: #A86479;
+    font-size: 1.5rem;
+}
+
+.btns{
+    text-align: center;
+}
